@@ -1,0 +1,12 @@
+<suite thread-count="1" verbose="1" name="envothemes.com automation on 'Shop' and 'Sale' pages">
+    <test name="Shop Page">
+        <classes>
+            <class name="TestRunner.ShopTestRunner"/>
+        </classes>
+    </test>
+    <test name="Sale Page">
+        <classes>
+            <class name="TestRunner.SaleTestRunner"/>
+        </classes>
+    </test>
+</suite>
