@@ -1,4 +1,4 @@
-# TestNG E-CommercePortal
+# TestNG E-Commerce Portal
 
 ## How to run this file
 
