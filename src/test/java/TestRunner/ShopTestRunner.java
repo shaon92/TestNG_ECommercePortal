@@ -24,7 +24,7 @@ public class ShopTestRunner extends Setup {
     public void slidePriceFilterRunner() throws InterruptedException {
         driver.get("https://envothemes.com/envo-ecommerce/shop");
         Shop shop=new Shop(driver);
-        shop.slidePriceFilter(1,1); // from $20 to $90
+        shop.slidePriceFilter(2,1); // from $30 to $90
     }
 
     @Test(priority = 3, description = "Add to cart from all products from Shop Page")
