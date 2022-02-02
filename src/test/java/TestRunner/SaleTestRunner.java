@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class SaleTestRunner extends Setup {
 
-    @Test(priority = 0, description = "Get Page title")
+    @Test(priority = 0, description = "Get Page headline")
     public void getPageHeadlineRunner() {
         driver.get("https://envothemes.com/envo-ecommerce/sale");
         Sale sale=new Sale(driver);
